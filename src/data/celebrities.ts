@@ -3,8 +3,13 @@ import { Celebrity } from '../types';
 export const celebrities: Celebrity[] = [
   {
     name: "Forrest Gump",
-    iqRange: "70-85",
+    iqRange: "60-70",
     description: "fictional character with a kind heart and simple wisdom"
+  },
+  {
+    name: "Below Average",
+    iqRange: "70-85",
+    description: "represents below average intelligence"
   },
   {
     name: "Average Person",
@@ -12,29 +17,29 @@ export const celebrities: Celebrity[] = [
     description: "represents the typical intelligence of most people"
   },
   {
-    name: "Tom Cruise",
+    name: "Above Average",
     iqRange: "100-115",
-    description: "Hollywood actor known for action movies and charisma"
+    description: "represents above average intelligence"
   },
   {
-    name: "Natalie Portman",
+    name: "High IQ",
     iqRange: "115-130",
-    description: "Harvard-educated actress and accomplished scholar"
+    description: "represents high intelligence"
   },
   {
-    name: "Nikola Tesla",
+    name: "Very High IQ",
     iqRange: "130-145",
-    description: "brilliant inventor who revolutionized electricity and engineering"
+    description: "represents very high intelligence"
   },
   {
-    name: "Stephen Hawking",
+    name: "Genius Level",
     iqRange: "145-160",
-    description: "theoretical physicist who unlocked secrets of the universe"
+    description: "represents genius level intelligence"
   },
   {
-    name: "Terence Tao",
+    name: "Super Genius",
     iqRange: "160+",
-    description: "mathematical genius and youngest Fields Medal winner"
+    description: "represents super genius level intelligence"
   }
 ];
 

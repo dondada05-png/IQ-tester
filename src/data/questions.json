@@ -1,14 +1,78 @@
 [
   {
     "id": 1,
-    "question": "Which number comes next: 2, 4, 6, 8, ?",
-    "options": ["10", "12", "9", "11"],
+    "question": "If all Bloops are Razzles and all Razzles are Lazzles, then some Bloops are definitely Lazzles.",
+    "options": ["True", "False", "Cannot be determined", "Need more information"],
     "correctAnswer": 0,
     "difficulty": "easy",
-    "explanation": "Simple arithmetic sequence adding 2 each time: 2, 4, 6, 8, 10."
+    "explanation": "This is a valid logical syllogism. If all Bloops are Razzles, and all Razzles are Lazzles, then all Bloops must be Lazzles."
   },
   {
     "id": 2,
+    "question": "In a race, you overtake the person in 2nd place. What position are you in now?",
+    "options": ["1st place", "2nd place", "3rd place", "Cannot determine"],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "If you overtake the person in 2nd place, you take their position - 2nd place."
+  },
+  {
+    "id": 3,
+    "question": "A farmer has 17 sheep. All but 9 die. How many are left?",
+    "options": ["8", "9", "0", "17"],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "'All but 9 die' means 9 survive, so 9 sheep are left."
+  },
+  {
+    "id": 4,
+    "question": "If you have it, you want to share it. If you share it, you don't have it. What is it?",
+    "options": ["Money", "Secret", "Food", "Knowledge"],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "A secret - when you share it, it's no longer a secret."
+  },
+  {
+    "id": 5,
+    "question": "What number is missing: 1, 11, 21, 1211, ?",
+    "options": ["111221", "121211", "131211", "112211"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Look-and-say sequence: 1211 is 'one 1, one 2, two 1s' = 111221."
+  },
+  {
+    "id": 6,
+    "question": "A man lives on the 20th floor. He takes the elevator down each morning, but only takes it to the 10th floor when returning (except on rainy days). Why?",
+    "options": ["He likes exercise", "Elevator breaks", "He's too short to reach the 20th button", "He's afraid"],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "He's too short to reach the 20th floor button, but uses an umbrella on rainy days."
+  },
+  {
+    "id": 7,
+    "question": "If all X are Y, and some Y are Z, then:",
+    "options": ["All X are Z", "Some X are Z", "No X are Z", "Cannot be determined"],
+    "correctAnswer": 3,
+    "difficulty": "easy",
+    "explanation": "We cannot determine the relationship between X and Z from the given information."
+  },
+  {
+    "id": 8,
+    "question": "In a code, CAT=312, DOG=415, then BAT=?",
+    "options": ["213", "312", "123", "231"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "C=3, A=1, T=2. So BAT=213."
+  },
+  {
+    "id": 9,
+    "question": "If A=1, B=2, C=3, then what is CAB?",
+    "options": ["312", "123", "213", "321"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "C=3, A=1, B=2. So CAB=312."
+  },
+  {
+    "id": 10,
     "question": "Which word does NOT belong with the others?",
     "options": ["Apple", "Banana", "Carrot", "Orange"],
     "correctAnswer": 2,
@@ -16,63 +80,31 @@
     "explanation": "Carrot is a vegetable, while the others are fruits."
   },
   {
-    "id": 3,
+    "id": 11,
     "question": "Complete the analogy: Cat is to Kitten as Dog is to:",
     "options": ["Puppy", "Cub", "Baby", "Young"],
     "correctAnswer": 0,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "explanation": "A kitten is a baby cat, just as a puppy is a baby dog."
   },
   {
-    "id": 4,
+    "id": 12,
     "question": "What comes next: A, B, C, D, ?",
     "options": ["E", "F", "G", "H"],
     "correctAnswer": 0,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "explanation": "Simple alphabetical sequence: A, B, C, D, E."
   },
   {
-    "id": 5,
+    "id": 13,
     "question": "Which shape is different from the others?",
     "options": ["Circle", "Square", "Triangle", "Red"],
     "correctAnswer": 3,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "explanation": "Red is a color, while the others are shapes."
   },
   {
-    "id": 6,
-    "question": "If all roses are flowers, and some flowers are red, then:",
-    "options": ["All roses are red", "Some roses are red", "No roses are red", "Cannot be determined"],
-    "correctAnswer": 3,
-    "difficulty": "medium",
-    "explanation": "We cannot determine the color of roses from the given information."
-  },
-  {
-    "id": 7,
-    "question": "What is the next number: 1, 3, 6, 10, ?",
-    "options": ["15", "14", "16", "13"],
-    "correctAnswer": 0,
-    "difficulty": "medium",
-    "explanation": "Differences increase by 1: +2, +3, +4, +5. So 10 + 5 = 15."
-  },
-  {
-    "id": 8,
-    "question": "In a certain code, 'HELLO' is written as 'IFMMP'. How is 'WORLD' written?",
-    "options": ["XPSME", "XPSMF", "XPSMD", "XPSMG"],
-    "correctAnswer": 0,
-    "difficulty": "medium",
-    "explanation": "Each letter is shifted one position forward: H→I, E→F, L→M, L→M, O→P. So WORLD becomes XPSME."
-  },
-  {
-    "id": 9,
-    "question": "Which comes next: A1, C3, E5, G7, ?",
-    "options": ["I9", "H8", "I8", "J9"],
-    "correctAnswer": 0,
-    "difficulty": "medium",
-    "explanation": "Letters skip one (A,C,E,G,I) and numbers increase by 2 (1,3,5,7,9)."
-  },
-  {
-    "id": 10,
+    "id": 14,
     "question": "If Monday is 2 days before Wednesday, what day is 3 days after Friday?",
     "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "correctAnswer": 0,
@@ -80,83 +112,291 @@
     "explanation": "3 days after Friday: Saturday, Sunday, Monday."
   },
   {
-    "id": 11,
-    "question": "A clock shows 2:30. What is the angle between the hour and minute hands?",
-    "options": ["105°", "120°", "135°", "150°"],
-    "correctAnswer": 0,
-    "difficulty": "hard",
-    "explanation": "At 2:30, the minute hand is at 180° and the hour hand is at 75° (2×30° + 30°×0.5°). The difference is 180° - 75° = 105°."
-  },
-  {
-    "id": 12,
-    "question": "What is the next number: 1, 4, 10, 22, 46, ?",
-    "options": ["94", "92", "96", "98"],
-    "correctAnswer": 0,
-    "difficulty": "hard",
-    "explanation": "Each number is (previous × 2) + 2: 1×2+2=4, 4×2+2=10, 10×2+2=22, 22×2+2=46, 46×2+2=94."
-  },
-  {
-    "id": 13,
-    "question": "If a sequence is defined by aₙ = 2aₙ₋₁ + 1 with a₁ = 1, what is a₄?",
-    "options": ["15", "31", "63", "127"],
-    "correctAnswer": 0,
-    "difficulty": "hard",
-    "explanation": "a₁ = 1, a₂ = 2(1) + 1 = 3, a₃ = 2(3) + 1 = 7, a₄ = 2(7) + 1 = 15."
-  },
-  {
-    "id": 14,
-    "question": "What number should replace the question mark: 3, 7, 15, 31, ?",
-    "options": ["63", "62", "64", "61"],
-    "correctAnswer": 0,
-    "difficulty": "hard",
-    "explanation": "Each number is (previous × 2) + 1: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63."
-  },
-  {
     "id": 15,
-    "question": "If all Bloops are Razzles and all Razzles are Lazzles, then some Bloops are definitely Lazzles.",
-    "options": ["True", "False", "Cannot be determined", "Need more information"],
+    "question": "In a certain code, 'HELLO' is written as 'IFMMP'. How is 'WORLD' written?",
+    "options": ["XPSME", "XPSMF", "XPSMD", "XPSMG"],
     "correctAnswer": 0,
-    "difficulty": "extreme",
-    "explanation": "This is a valid logical syllogism. If all Bloops are Razzles, and all Razzles are Lazzles, then all Bloops must be Lazzles."
+    "difficulty": "medium",
+    "explanation": "Each letter is shifted one position forward: H→I, E→F, L→M, L→M, O→P. So WORLD becomes XPSME."
   },
   {
     "id": 16,
-    "question": "In a race, you overtake the person in 2nd place. What position are you in now?",
-    "options": ["1st place", "2nd place", "3rd place", "Cannot determine"],
-    "correctAnswer": 1,
-    "difficulty": "extreme",
-    "explanation": "If you overtake the person in 2nd place, you take their position - 2nd place."
+    "question": "Which comes next: A1, C3, E5, G7, ?",
+    "options": ["I9", "H8", "I8", "J9"],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Letters skip one (A,C,E,G,I) and numbers increase by 2 (1,3,5,7,9)."
   },
   {
     "id": 17,
-    "question": "A farmer has 17 sheep. All but 9 die. How many are left?",
-    "options": ["8", "9", "0", "17"],
-    "correctAnswer": 1,
-    "difficulty": "extreme",
-    "explanation": "'All but 9 die' means 9 survive, so 9 sheep are left."
+    "question": "If all roses are flowers, and some flowers are red, then:",
+    "options": ["All roses are red", "Some roses are red", "No roses are red", "Cannot be determined"],
+    "correctAnswer": 3,
+    "difficulty": "medium",
+    "explanation": "We cannot determine the color of roses from the given information."
   },
   {
     "id": 18,
-    "question": "If you have it, you want to share it. If you share it, you don't have it. What is it?",
-    "options": ["Money", "Secret", "Food", "Knowledge"],
-    "correctAnswer": 1,
-    "difficulty": "extreme",
-    "explanation": "A secret - when you share it, it's no longer a secret."
+    "question": "What comes next: North, South, East, West, ?",
+    "options": ["North", "South", "East", "West"],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Cardinal directions cycle: North, South, East, West, North."
   },
   {
     "id": 19,
-    "question": "What number is missing: 1, 11, 21, 1211, ?",
-    "options": ["111221", "121211", "131211", "112211"],
-    "correctAnswer": 0,
-    "difficulty": "extreme",
-    "explanation": "Look-and-say sequence: 1211 is 'one 1, one 2, two 1s' = 111221."
+    "question": "If RED=27, BLUE=32, then GREEN=?",
+    "options": ["47", "52", "57", "62"],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "RED: R(18)+E(5)+D(4)=27, BLUE: B(2)+L(12)+U(21)+E(5)=40-8=32, GREEN: G(7)+R(18)+E(5)+E(5)+N(14)=49+3=52."
   },
   {
     "id": 20,
-    "question": "A man lives on the 20th floor. He takes the elevator down each morning, but only takes it to the 10th floor when returning (except on rainy days). Why?",
-    "options": ["He likes exercise", "Elevator breaks", "He's too short to reach the 20th button", "He's afraid"],
+    "question": "Which word is the odd one out: Happy, Joyful, Sad, Cheerful?",
+    "options": ["Happy", "Joyful", "Sad", "Cheerful"],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Sad is negative, while the others are positive emotions."
+  },
+  {
+    "id": 21,
+    "question": "If all scientists are thinkers, and some thinkers are philosophers, then:",
+    "options": ["All scientists are philosophers", "Some scientists are philosophers", "No scientists are philosophers", "Cannot be determined"],
+    "correctAnswer": 3,
+    "difficulty": "hard",
+    "explanation": "We cannot determine the relationship between scientists and philosophers from the given information."
+  },
+  {
+    "id": 22,
+    "question": "What comes next: 1, 11, 21, 1211, 111221, ?",
+    "options": ["312211", "211221", "221111", "112211"],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Look-and-say sequence: 111221 is 'three 1s, two 2s, one 1' = 312211."
+  },
+  {
+    "id": 23,
+    "question": "If a sequence is defined by: each number describes the previous number, starting with 1, what is the 4th number?",
+    "options": ["111", "1211", "111221", "312211"],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "1, then 'one 1' = 11, then 'two 1s' = 21, then 'one 2, one 1' = 1211."
+  },
+  {
+    "id": 24,
+    "question": "Which pattern comes next: O, T, T, F, F, S, S, ?",
+    "options": ["E", "N", "T", "O"],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "First letters of numbers: One, Two, Three, Four, Five, Six, Seven, Eight."
+  },
+  {
+    "id": 25,
+    "question": "If all A are B, and no B are C, then:",
+    "options": ["All A are C", "Some A are C", "No A are C", "Cannot be determined"],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "If all A are B, and no B are C, then no A can be C."
+  },
+  {
+    "id": 26,
+    "question": "What comes next: 2, 6, 12, 20, 30, ?",
+    "options": ["42", "40", "44", "38"],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Differences: +4, +6, +8, +10, +12. So 30 + 12 = 42."
+  },
+  {
+    "id": 27,
+    "question": "If a code uses: A=1, B=2, C=3, D=4, what is BAD?",
+    "options": ["214", "124", "142", "241"],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "B=2, A=1, D=4. So BAD=214."
+  },
+  {
+    "id": 28,
+    "question": "Which sequence is different: 1,2,3,4 or A,B,C,D or Up,Down,Left,Right?",
+    "options": ["1,2,3,4", "A,B,C,D", "Up,Down,Left,Right", "All are the same"],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Up,Down,Left,Right doesn't follow a clear sequential pattern like the others."
+  },
+  {
+    "id": 29,
+    "question": "If all X are Y, and some Y are Z, and some Z are W, then:",
+    "options": ["All X are W", "Some X are W", "No X are W", "Cannot be determined"],
+    "correctAnswer": 3,
+    "difficulty": "hard",
+    "explanation": "We cannot determine the relationship between X and W from the given information."
+  },
+  {
+    "id": 30,
+    "question": "What comes next: 1, 1, 2, 3, 5, 8, 13, ?",
+    "options": ["21", "19", "23", "17"],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Fibonacci sequence: each number is the sum of the previous two. 8 + 13 = 21."
+  },
+  {
+    "id": 31,
+    "question": "If a sequence is defined by: each number describes the previous number, starting with 1, what is the 5th number?",
+    "options": ["111221", "312211", "13112221", "1113213211"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "1, 11, 21, 1211, 111221 (one 1, one 2, two 1s)."
+  },
+  {
+    "id": 32,
+    "question": "Which pattern comes next: 1, 11, 21, 1211, 111221, 312211, ?",
+    "options": ["13112221", "1113213211", "31131211131221", "13211311123113112211"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "Look-and-say sequence: 312211 is 'one 3, one 1, two 2s, two 1s' = 13112221."
+  },
+  {
+    "id": 33,
+    "question": "If all A are B, and some B are C, and all C are D, then:",
+    "options": ["All A are D", "Some A are D", "No A are D", "Cannot be determined"],
+    "correctAnswer": 1,
+    "difficulty": "extreme",
+    "explanation": "Some A are B, and some B are C, and all C are D, so some A are D."
+  },
+  {
+    "id": 34,
+    "question": "What comes next: O, T, T, F, F, S, S, E, N, ?",
+    "options": ["T", "E", "N", "O"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "First letters of numbers: One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten."
+  },
+  {
+    "id": 35,
+    "question": "If a sequence is defined by: each number describes the previous number, starting with 1, what is the 6th number?",
+    "options": ["312211", "13112221", "1113213211", "31131211131221"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "1, 11, 21, 1211, 111221, 312211 (three 1s, two 2s, two 1s)."
+  },
+  {
+    "id": 36,
+    "question": "Which sequence is most different: 1,2,3,4 or A,B,C,D or North,South,East,West or Up,Down,Left,Right?",
+    "options": ["1,2,3,4", "A,B,C,D", "North,South,East,West", "Up,Down,Left,Right"],
+    "correctAnswer": 3,
+    "difficulty": "extreme",
+    "explanation": "Up,Down,Left,Right doesn't follow a clear sequential pattern like the others."
+  },
+  {
+    "id": 37,
+    "question": "If all X are Y, and no Y are Z, and some Z are W, then:",
+    "options": ["All X are W", "Some X are W", "No X are W", "Cannot be determined"],
     "correctAnswer": 2,
     "difficulty": "extreme",
-    "explanation": "He's too short to reach the 20th floor button, but uses an umbrella on rainy days."
+    "explanation": "If all X are Y, and no Y are Z, then no X are Z, and since some Z are W, no X are W."
+  },
+  {
+    "id": 38,
+    "question": "What comes next: 1, 1, 2, 3, 5, 8, 13, 21, ?",
+    "options": ["34", "32", "36", "30"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "Fibonacci sequence: each number is the sum of the previous two. 13 + 21 = 34."
+  },
+  {
+    "id": 39,
+    "question": "If a sequence is defined by: each number describes the previous number, starting with 1, what is the 7th number?",
+    "options": ["13112221", "1113213211", "31131211131221", "13211311123113112211"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "1, 11, 21, 1211, 111221, 312211, 13112221 (one 3, one 1, two 2s, two 1s)."
+  },
+  {
+    "id": 40,
+    "question": "Which pattern comes next: 1, 11, 21, 1211, 111221, 312211, 13112221, ?",
+    "options": ["1113213211", "31131211131221", "13211311123113112211", "11131221133112132113212221"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "Look-and-say sequence: 13112221 is 'one 1, one 3, two 1s, three 2s, one 1' = 1113213211."
+  },
+  {
+    "id": 41,
+    "question": "If all A are B, and some B are C, and some C are D, and all D are E, then:",
+    "options": ["All A are E", "Some A are E", "No A are E", "Cannot be determined"],
+    "correctAnswer": 3,
+    "difficulty": "extreme",
+    "explanation": "We cannot determine the relationship between A and E from the given information."
+  },
+  {
+    "id": 42,
+    "question": "What comes next: O, T, T, F, F, S, S, E, N, T, E, ?",
+    "options": ["T", "W", "E", "L"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "First letters of numbers: One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven, Twelve."
+  },
+  {
+    "id": 43,
+    "question": "If a sequence is defined by: each number describes the previous number, starting with 1, what is the 8th number?",
+    "options": ["1113213211", "31131211131221", "13211311123113112211", "11131221133112132113212221"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "1, 11, 21, 1211, 111221, 312211, 13112221, 1113213211 (one 1, one 3, two 1s, three 2s, one 1)."
+  },
+  {
+    "id": 44,
+    "question": "Which sequence is most different: 1,2,3,4 or A,B,C,D or North,South,East,West or Up,Down,Left,Right or Red,Blue,Green,Yellow?",
+    "options": ["1,2,3,4", "A,B,C,D", "North,South,East,West", "Up,Down,Left,Right", "Red,Blue,Green,Yellow"],
+    "correctAnswer": 3,
+    "difficulty": "extreme",
+    "explanation": "Up,Down,Left,Right doesn't follow a clear sequential pattern like the others."
+  },
+  {
+    "id": 45,
+    "question": "If all X are Y, and no Y are Z, and some Z are W, and all W are V, then:",
+    "options": ["All X are V", "Some X are V", "No X are V", "Cannot be determined"],
+    "correctAnswer": 2,
+    "difficulty": "extreme",
+    "explanation": "If all X are Y, and no Y are Z, then no X are Z, and since some Z are W, and all W are V, no X are V."
+  },
+  {
+    "id": 46,
+    "question": "What comes next: 1, 1, 2, 3, 5, 8, 13, 21, 34, ?",
+    "options": ["55", "53", "57", "51"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "Fibonacci sequence: each number is the sum of the previous two. 21 + 34 = 55."
+  },
+  {
+    "id": 47,
+    "question": "If a sequence is defined by: each number describes the previous number, starting with 1, what is the 9th number?",
+    "options": ["31131211131221", "13211311123113112211", "11131221133112132113212221", "311311222113111231131112132112311321322112111312211312111322212311322113212221"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "1, 11, 21, 1211, 111221, 312211, 13112221, 1113213211, 31131211131221 (three 1s, one 3, one 1, two 1s, one 3, one 1, two 1s, two 2s, one 1)."
+  },
+  {
+    "id": 48,
+    "question": "Which pattern comes next: 1, 11, 21, 1211, 111221, 312211, 13112221, 1113213211, ?",
+    "options": ["31131211131221", "13211311123113112211", "11131221133112132113212221", "311311222113111231131112132112311321322112111312211312111322212311322113212221"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "Look-and-say sequence: 1113213211 is 'three 1s, one 3, one 1, two 1s, one 3, one 1, two 1s, two 2s, one 1' = 31131211131221."
+  },
+  {
+    "id": 49,
+    "question": "If all A are B, and some B are C, and some C are D, and all D are E, and some E are F, then:",
+    "options": ["All A are F", "Some A are F", "No A are F", "Cannot be determined"],
+    "correctAnswer": 3,
+    "difficulty": "extreme",
+    "explanation": "We cannot determine the relationship between A and F from the given information."
+  },
+  {
+    "id": 50,
+    "question": "What comes next: O, T, T, F, F, S, S, E, N, T, E, ?",
+    "options": ["T", "W", "E", "L"],
+    "correctAnswer": 0,
+    "difficulty": "extreme",
+    "explanation": "First letters of numbers: One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven, Twelve."
   }
 ] 
