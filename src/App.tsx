@@ -7,8 +7,10 @@ import ResultsScreen from './components/ResultsScreen';
 function App() {
   const [currentScreen, setCurrentScreen] = useState<ScreenType>('start');
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
+  const [userName, setUserName] = useState<string>('');
 
-  const handleStartTest = () => {
+  const handleStartTest = (name: string) => {
+    setUserName(name);
     setCurrentScreen('quiz');
     setUserAnswers([]);
   };
@@ -21,6 +23,7 @@ function App() {
   const handleRestart = () => {
     setCurrentScreen('start');
     setUserAnswers([]);
+    setUserName('');
   };
 
   const renderCurrentScreen = () => {
@@ -30,7 +33,7 @@ function App() {
       case 'quiz':
         return <QuizInterface onComplete={handleCompleteTest} />;
       case 'results':
-        return <ResultsScreen userAnswers={userAnswers} onRestart={handleRestart} />;
+        return <ResultsScreen userAnswers={userAnswers} userName={userName} onRestart={handleRestart} />;
       default:
         return <StartScreen onStart={handleStartTest} />;
     }

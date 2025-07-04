@@ -2,9 +2,9 @@ import { TestResult, Celebrity, UserAnswer } from '../types';
 import { celebrities } from '../data/celebrities';
 
 export function calculateIQScore(correctAnswers: number): number {
-  // Linear scale: 1 correct = IQ 70, 10 correct = IQ 160
-  // Formula: IQ = 70 + (correctAnswers * 9)
-  const iqScore = 70 + (correctAnswers * 9);
+  // More realistic scale: 0 correct = IQ 70, 5 correct = IQ 100, 10 correct = IQ 130
+  // Formula: IQ = 70 + (correctAnswers * 6)
+  const iqScore = 70 + (correctAnswers * 6);
   return Math.min(Math.max(iqScore, 70), 160); // Clamp between 70-160
 }
 
@@ -50,4 +50,20 @@ export function getPerformanceColor(percentage: number): string {
   if (percentage >= 60) return "text-yellow-600";
   if (percentage >= 50) return "text-orange-600";
   return "text-red-600";
+}
+
+export function getTimeLimitForDifficulty(difficulty: string): number {
+  switch (difficulty) {
+    case 'easy': return 30;
+    case 'medium': return 45;
+    case 'hard': return 60;
+    case 'extreme': return 90;
+    default: return 45;
+  }
+}
+
+export function formatTime(seconds: number): string {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
 } 

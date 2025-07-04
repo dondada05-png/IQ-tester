@@ -1,22 +1,14 @@
 [
   {
     "id": 1,
-    "question": "Which number should come next in this series: 2, 4, 8, 16, ?",
-    "options": ["24", "32", "30", "18"],
-    "correctAnswer": 1,
+    "question": "Which number comes next: 2, 4, 6, 8, ?",
+    "options": ["10", "12", "9", "11"],
+    "correctAnswer": 0,
     "difficulty": "easy",
-    "explanation": "Each number is double the previous number (2×2=4, 4×2=8, 8×2=16, 16×2=32)."
+    "explanation": "Simple arithmetic sequence adding 2 each time: 2, 4, 6, 8, 10."
   },
   {
     "id": 2,
-    "question": "Book is to Reading as Fork is to:",
-    "options": ["Drawing", "Writing", "Eating", "Stirring"],
-    "correctAnswer": 2,
-    "difficulty": "easy",
-    "explanation": "A book is used for reading, just as a fork is used for eating."
-  },
-  {
-    "id": 3,
     "question": "Which word does NOT belong with the others?",
     "options": ["Apple", "Banana", "Carrot", "Orange"],
     "correctAnswer": 2,
@@ -24,20 +16,28 @@
     "explanation": "Carrot is a vegetable, while the others are fruits."
   },
   {
-    "id": 4,
-    "question": "What comes next in this sequence: 1, 4, 9, 16, ?",
-    "options": ["20", "25", "24", "36"],
-    "correctAnswer": 1,
+    "id": 3,
+    "question": "Complete the analogy: Cat is to Kitten as Dog is to:",
+    "options": ["Puppy", "Cub", "Baby", "Young"],
+    "correctAnswer": 0,
     "difficulty": "easy",
-    "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25."
+    "explanation": "A kitten is a baby cat, just as a puppy is a baby dog."
+  },
+  {
+    "id": 4,
+    "question": "What comes next: A, B, C, D, ?",
+    "options": ["E", "F", "G", "H"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Simple alphabetical sequence: A, B, C, D, E."
   },
   {
     "id": 5,
-    "question": "Find the odd one out:",
-    "options": ["Dog", "Cat", "Fish", "Bird"],
-    "correctAnswer": 2,
+    "question": "Which shape is different from the others?",
+    "options": ["Circle", "Square", "Triangle", "Red"],
+    "correctAnswer": 3,
     "difficulty": "easy",
-    "explanation": "Fish live in water, while the others are land animals that breathe air."
+    "explanation": "Red is a color, while the others are shapes."
   },
   {
     "id": 6,
@@ -49,38 +49,22 @@
   },
   {
     "id": 7,
-    "question": "Which number should come next: 3, 6, 12, 24, ?",
-    "options": ["36", "48", "42", "30"],
-    "correctAnswer": 1,
+    "question": "What is the next number: 1, 3, 6, 10, ?",
+    "options": ["15", "14", "16", "13"],
+    "correctAnswer": 0,
     "difficulty": "medium",
-    "explanation": "Each number is doubled: 3×2=6, 6×2=12, 12×2=24, 24×2=48."
+    "explanation": "Differences increase by 1: +2, +3, +4, +5. So 10 + 5 = 15."
   },
   {
     "id": 8,
-    "question": "What is the next number in this sequence: 1, 1, 2, 3, 5, 8, ?",
-    "options": ["11", "13", "15", "10"],
-    "correctAnswer": 1,
+    "question": "In a certain code, 'HELLO' is written as 'IFMMP'. How is 'WORLD' written?",
+    "options": ["XPSME", "XPSMF", "XPSMD", "XPSMG"],
+    "correctAnswer": 0,
     "difficulty": "medium",
-    "explanation": "This is the Fibonacci sequence where each number is the sum of the two preceding ones (5+8=13)."
+    "explanation": "Each letter is shifted one position forward: H→I, E→F, L→M, L→M, O→P. So WORLD becomes XPSME."
   },
   {
     "id": 9,
-    "question": "If you rearrange the letters 'CIFAIPC', you would have the name of a:",
-    "options": ["City", "Animal", "Ocean", "Country"],
-    "correctAnswer": 2,
-    "difficulty": "medium",
-    "explanation": "CIFAIPC rearranged spells PACIFIC, which is an ocean."
-  },
-  {
-    "id": 10,
-    "question": "Complete the analogy: Day is to Night as Summer is to:",
-    "options": ["Hot", "Winter", "Cold", "Season"],
-    "correctAnswer": 1,
-    "difficulty": "medium",
-    "explanation": "Day and night are opposites, just as summer and winter are opposite seasons."
-  },
-  {
-    "id": 11,
     "question": "Which comes next: A1, C3, E5, G7, ?",
     "options": ["I9", "H8", "I8", "J9"],
     "correctAnswer": 0,
@@ -88,95 +72,7 @@
     "explanation": "Letters skip one (A,C,E,G,I) and numbers increase by 2 (1,3,5,7,9)."
   },
   {
-    "id": 12,
-    "question": "Find the pattern: 2, 6, 18, 54, ?",
-    "options": ["108", "162", "72", "216"],
-    "correctAnswer": 1,
-    "difficulty": "medium",
-    "explanation": "Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162."
-  },
-  {
-    "id": 13,
-    "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
-    "options": ["0°", "7.5°", "15°", "22.5°"],
-    "correctAnswer": 1,
-    "difficulty": "hard",
-    "explanation": "At 3:15, the minute hand is at 90° and the hour hand is at 97.5°. The difference is 7.5°."
-  },
-  {
-    "id": 14,
-    "question": "In a certain code, FLOWER is written as EKNVDQ. How is GARDEN written?",
-    "options": ["FZQCDK", "FZQCDM", "FZQCDI", "FZQCDL"],
-    "correctAnswer": 1,
-    "difficulty": "hard",
-    "explanation": "Each letter is shifted one position back: G→F, A→Z, R→Q, D→C, E→D, N→M."
-  },
-  {
-    "id": 15,
-    "question": "What number should replace the question mark: 4, 9, 25, 49, ?",
-    "options": ["64", "81", "100", "121"],
-    "correctAnswer": 3,
-    "difficulty": "hard",
-    "explanation": "These are squares of prime numbers: 2²=4, 3²=9, 5²=25, 7²=49, 11²=121."
-  },
-  {
-    "id": 16,
-    "question": "If 2 + 3 = 10, 6 + 5 = 66, 1 + 4 = 5, then 3 + 7 = ?",
-    "options": ["21", "30", "70", "10"],
-    "correctAnswer": 2,
-    "difficulty": "extreme",
-    "explanation": "The pattern is: (first + second) × second = result. So (3+7) × 7 = 70."
-  },
-  {
-    "id": 17,
-    "question": "A man lives on the 20th floor. He takes the elevator down each morning, but only takes it to the 10th floor when returning (except on rainy days). Why?",
-    "options": ["He likes exercise", "Elevator breaks", "He's too short to reach the 20th button", "He's afraid"],
-    "correctAnswer": 2,
-    "difficulty": "extreme",
-    "explanation": "He's too short to reach the 20th floor button, but uses an umbrella on rainy days."
-  },
-  {
-    "id": 18,
-    "question": "What comes next: 1, 8, 27, 64, ?",
-    "options": ["100", "125", "144", "216"],
-    "correctAnswer": 1,
-    "difficulty": "easy",
-    "explanation": "These are cubes: 1³=1, 2³=8, 3³=27, 4³=64, 5³=125."
-  },
-  {
-    "id": 19,
-    "question": "Which is the odd one out?",
-    "options": ["Triangle", "Square", "Circle", "Pentagon"],
-    "correctAnswer": 2,
-    "difficulty": "easy",
-    "explanation": "Circle has no straight edges, while the others are polygons."
-  },
-  {
-    "id": 20,
-    "question": "Complete: Car is to Road as Ship is to:",
-    "options": ["Harbor", "Water", "Captain", "Anchor"],
-    "correctAnswer": 1,
-    "difficulty": "easy",
-    "explanation": "Cars travel on roads, ships travel on water."
-  },
-  {
-    "id": 21,
-    "question": "What number comes next: 5, 10, 20, 40, ?",
-    "options": ["60", "80", "70", "50"],
-    "correctAnswer": 1,
-    "difficulty": "easy",
-    "explanation": "Each number doubles: 5×2=10, 10×2=20, 20×2=40, 40×2=80."
-  },
-  {
-    "id": 22,
-    "question": "Find the missing number: 7, 14, 28, ?, 112",
-    "options": ["42", "56", "70", "84"],
-    "correctAnswer": 1,
-    "difficulty": "medium",
-    "explanation": "Each number doubles: 7×2=14, 14×2=28, 28×2=56, 56×2=112."
-  },
-  {
-    "id": 23,
+    "id": 10,
     "question": "If Monday is 2 days before Wednesday, what day is 3 days after Friday?",
     "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "correctAnswer": 0,
@@ -184,71 +80,39 @@
     "explanation": "3 days after Friday: Saturday, Sunday, Monday."
   },
   {
-    "id": 24,
-    "question": "What's the next letter: A, D, G, J, ?",
-    "options": ["L", "M", "N", "K"],
-    "correctAnswer": 1,
-    "difficulty": "medium",
-    "explanation": "Each letter skips 2 positions: A(+3)→D(+3)→G(+3)→J(+3)→M."
-  },
-  {
-    "id": 25,
-    "question": "Complete the pattern: 1, 3, 7, 15, ?",
-    "options": ["31", "30", "23", "27"],
-    "correctAnswer": 0,
-    "difficulty": "medium",
-    "explanation": "Each number is (previous × 2) + 1: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31."
-  },
-  {
-    "id": 26,
-    "question": "Which word can be made from the letters of MATHEMATICS?",
-    "options": ["STEAM", "CHART", "MATCH", "All of these"],
-    "correctAnswer": 3,
-    "difficulty": "medium",
-    "explanation": "All three words can be formed using letters from MATHEMATICS."
-  },
-  {
-    "id": 27,
-    "question": "What comes next: 100, 81, 64, 49, ?",
-    "options": ["36", "25", "16", "40"],
+    "id": 11,
+    "question": "A clock shows 2:30. What is the angle between the hour and minute hands?",
+    "options": ["105°", "120°", "135°", "150°"],
     "correctAnswer": 0,
     "difficulty": "hard",
-    "explanation": "These are perfect squares in descending order: 10²=100, 9²=81, 8²=64, 7²=49, 6²=36."
+    "explanation": "At 2:30, the minute hand is at 180° and the hour hand is at 75° (2×30° + 30°×0.5°). The difference is 180° - 75° = 105°."
   },
   {
-    "id": 28,
-    "question": "If DREAM is coded as MAERD, how is WORLD coded?",
-    "options": ["DLROW", "WORDL", "LROWD", "DRLWO"],
+    "id": 12,
+    "question": "What is the next number: 1, 4, 10, 22, 46, ?",
+    "options": ["94", "92", "96", "98"],
     "correctAnswer": 0,
     "difficulty": "hard",
-    "explanation": "The word is simply reversed: WORLD becomes DLROW."
+    "explanation": "Each number is (previous × 2) + 2: 1×2+2=4, 4×2+2=10, 10×2+2=22, 22×2+2=46, 46×2+2=94."
   },
   {
-    "id": 29,
-    "question": "Find the next number: 2, 3, 5, 8, 12, ?",
-    "options": ["17", "16", "15", "18"],
+    "id": 13,
+    "question": "If a sequence is defined by aₙ = 2aₙ₋₁ + 1 with a₁ = 1, what is a₄?",
+    "options": ["15", "31", "63", "127"],
     "correctAnswer": 0,
     "difficulty": "hard",
-    "explanation": "Differences increase by 1: +1, +2, +3, +4, +5. So 12+5=17."
+    "explanation": "a₁ = 1, a₂ = 2(1) + 1 = 3, a₃ = 2(3) + 1 = 7, a₄ = 2(7) + 1 = 15."
   },
   {
-    "id": 30,
-    "question": "What is the missing number: 3, 7, 16, 35, ?",
-    "options": ["70", "74", "72", "68"],
-    "correctAnswer": 1,
+    "id": 14,
+    "question": "What number should replace the question mark: 3, 7, 15, 31, ?",
+    "options": ["63", "62", "64", "61"],
+    "correctAnswer": 0,
     "difficulty": "hard",
-    "explanation": "Pattern: 3×2+1=7, 7×2+2=16, 16×2+3=35, 35×2+4=74."
+    "explanation": "Each number is (previous × 2) + 1: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63."
   },
   {
-    "id": 31,
-    "question": "How many triangles are in this figure if it has 4 triangular sections arranged in a larger triangle?",
-    "options": ["4", "8", "13", "16"],
-    "correctAnswer": 2,
-    "difficulty": "hard",
-    "explanation": "Count: 4 small triangles + 6 medium triangles + 3 large triangles = 13 total."
-  },
-  {
-    "id": 32,
+    "id": 15,
     "question": "If all Bloops are Razzles and all Razzles are Lazzles, then some Bloops are definitely Lazzles.",
     "options": ["True", "False", "Cannot be determined", "Need more information"],
     "correctAnswer": 0,
@@ -256,15 +120,7 @@
     "explanation": "This is a valid logical syllogism. If all Bloops are Razzles, and all Razzles are Lazzles, then all Bloops must be Lazzles."
   },
   {
-    "id": 33,
-    "question": "What's the value of X: 2X + 3 = 4X - 5?",
-    "options": ["4", "8", "2", "6"],
-    "correctAnswer": 0,
-    "difficulty": "extreme",
-    "explanation": "Solving: 2X + 3 = 4X - 5 → 8 = 2X → X = 4."
-  },
-  {
-    "id": 34,
+    "id": 16,
     "question": "In a race, you overtake the person in 2nd place. What position are you in now?",
     "options": ["1st place", "2nd place", "3rd place", "Cannot determine"],
     "correctAnswer": 1,
@@ -272,135 +128,15 @@
     "explanation": "If you overtake the person in 2nd place, you take their position - 2nd place."
   },
   {
-    "id": 35,
-    "question": "What number is missing: 1, 11, 21, 1211, ?",
-    "options": ["111221", "121211", "131211", "112211"],
-    "correctAnswer": 0,
+    "id": 17,
+    "question": "A farmer has 17 sheep. All but 9 die. How many are left?",
+    "options": ["8", "9", "0", "17"],
+    "correctAnswer": 1,
     "difficulty": "extreme",
-    "explanation": "Look-and-say sequence: 1211 is 'one 1, one 2, two 1s' = 111221."
+    "explanation": "'All but 9 die' means 9 survive, so 9 sheep are left."
   },
   {
-    "id": 36,
-    "question": "Which shape completes the pattern?",
-    "options": ["Circle", "Square", "Triangle", "Pentagon"],
-    "correctAnswer": 2,
-    "difficulty": "easy",
-    "explanation": "Based on the sequence pattern, triangle completes it."
-  },
-  {
-    "id": 37,
-    "question": "What comes next: 10, 20, 30, 40, ?",
-    "options": ["50", "60", "45", "55"],
-    "correctAnswer": 0,
-    "difficulty": "easy",
-    "explanation": "Simple arithmetic sequence adding 10 each time."
-  },
-  {
-    "id": 38,
-    "question": "Ocean is to Fish as Sky is to:",
-    "options": ["Cloud", "Bird", "Blue", "Air"],
-    "correctAnswer": 1,
-    "difficulty": "easy",
-    "explanation": "Fish live in the ocean, birds live in the sky."
-  },
-  {
-    "id": 39,
-    "question": "Find the odd one: RED, BLUE, GREEN, LOUD",
-    "options": ["RED", "BLUE", "GREEN", "LOUD"],
-    "correctAnswer": 3,
-    "difficulty": "easy",
-    "explanation": "LOUD is not a color, while the others are colors."
-  },
-  {
-    "id": 40,
-    "question": "What's next: 2, 4, 6, 8, ?",
-    "options": ["10", "12", "9", "11"],
-    "correctAnswer": 0,
-    "difficulty": "easy",
-    "explanation": "Even numbers in sequence: 2, 4, 6, 8, 10."
-  },
-  {
-    "id": 41,
-    "question": "Complete: 3, 9, 27, 81, ?",
-    "options": ["162", "243", "324", "405"],
-    "correctAnswer": 1,
-    "difficulty": "medium",
-    "explanation": "Each number is multiplied by 3: 81 × 3 = 243."
-  },
-  {
-    "id": 42,
-    "question": "If CAT = 24, DOG = 26, what does PIG = ?",
-    "options": ["29", "31", "33", "35"],
-    "correctAnswer": 1,
-    "difficulty": "medium",
-    "explanation": "Sum of letter positions: P(16)+I(9)+G(7) = 32, but following the pattern it's 31."
-  },
-  {
-    "id": 43,
-    "question": "What's the missing number: 1, 4, 13, 40, ?",
-    "options": ["121", "120", "80", "160"],
-    "correctAnswer": 0,
-    "difficulty": "medium",
-    "explanation": "Pattern: ×3+1: 1×3+1=4, 4×3+1=13, 13×3+1=40, 40×3+1=121."
-  },
-  {
-    "id": 44,
-    "question": "Which doesn't belong: CHAIR, TABLE, SOFA, CARPET?",
-    "options": ["CHAIR", "TABLE", "SOFA", "CARPET"],
-    "correctAnswer": 3,
-    "difficulty": "medium",
-    "explanation": "CARPET is a floor covering, while others are furniture you sit/place things on."
-  },
-  {
-    "id": 45,
-    "question": "Next in sequence: Z, Y, X, W, ?",
-    "options": ["V", "U", "T", "S"],
-    "correctAnswer": 0,
-    "difficulty": "medium",
-    "explanation": "Alphabet in reverse order: Z, Y, X, W, V."
-  },
-  {
-    "id": 46,
-    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long for 100 machines to make 100 widgets?",
-    "options": ["5 minutes", "20 minutes", "100 minutes", "500 minutes"],
-    "correctAnswer": 0,
-    "difficulty": "hard",
-    "explanation": "Each machine makes 1 widget in 5 minutes, so 100 machines make 100 widgets in 5 minutes."
-  },
-  {
-    "id": 47,
-    "question": "What comes next: 1, 2, 6, 24, ?",
-    "options": ["48", "120", "96", "72"],
-    "correctAnswer": 1,
-    "difficulty": "hard",
-    "explanation": "Factorials: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120."
-  },
-  {
-    "id": 48,
-    "question": "In code: LOVE = 1234, VOLT = 1258. What does TOLL = ?",
-    "options": ["5311", "8311", "5211", "8211"],
-    "correctAnswer": 1,
-    "difficulty": "hard",
-    "explanation": "L=1, O=2, V=3, E=4, T=5. So TOLL = 5211... wait, rechecking: T=5, O=2, L=1, L=1 = 5211, but given pattern suggests 8311."
-  },
-  {
-    "id": 49,
-    "question": "Mary's father has 5 daughters: Nana, Nene, Nini, Nono, and ?",
-    "options": ["Nunu", "Mary", "Nina", "Nana"],
-    "correctAnswer": 1,
-    "difficulty": "hard",
-    "explanation": "The question states 'Mary's father has 5 daughters', so Mary is one of them."
-  },
-  {
-    "id": 50,
-    "question": "What's heavier: a pound of feathers or a pound of gold?",
-    "options": ["Feathers", "Gold", "Same weight", "Cannot determine"],
-    "correctAnswer": 2,
-    "difficulty": "hard",
-    "explanation": "A pound is a pound - they weigh the same."
-  },
-  {
-    "id": 51,
+    "id": 18,
     "question": "If you have it, you want to share it. If you share it, you don't have it. What is it?",
     "options": ["Money", "Secret", "Food", "Knowledge"],
     "correctAnswer": 1,
@@ -408,35 +144,19 @@
     "explanation": "A secret - when you share it, it's no longer a secret."
   },
   {
-    "id": 52,
-    "question": "Complete: 0, 1, 1, 2, 3, 5, 8, 13, ?",
-    "options": ["18", "21", "20", "19"],
-    "correctAnswer": 1,
-    "difficulty": "extreme",
-    "explanation": "Fibonacci sequence: 8 + 13 = 21."
-  },
-  {
-    "id": 53,
-    "question": "In a certain language, if TABLE = ELBAT, what does CHAIR = ?",
-    "options": ["RIAHC", "CHAIR", "HCAIR", "RIANC"],
+    "id": 19,
+    "question": "What number is missing: 1, 11, 21, 1211, ?",
+    "options": ["111221", "121211", "131211", "112211"],
     "correctAnswer": 0,
     "difficulty": "extreme",
-    "explanation": "The word is spelled backwards: CHAIR = RIAHC."
+    "explanation": "Look-and-say sequence: 1211 is 'one 1, one 2, two 1s' = 111221."
   },
   {
-    "id": 54,
-    "question": "What number should replace ?: 144, 121, 100, 81, ?",
-    "options": ["64", "49", "36", "60"],
-    "correctAnswer": 0,
+    "id": 20,
+    "question": "A man lives on the 20th floor. He takes the elevator down each morning, but only takes it to the 10th floor when returning (except on rainy days). Why?",
+    "options": ["He likes exercise", "Elevator breaks", "He's too short to reach the 20th button", "He's afraid"],
+    "correctAnswer": 2,
     "difficulty": "extreme",
-    "explanation": "Perfect squares descending: 12²=144, 11²=121, 10²=100, 9²=81, 8²=64."
-  },
-  {
-    "id": 55,
-    "question": "A farmer has 17 sheep. All but 9 die. How many are left?",
-    "options": ["8", "9", "0", "17"],
-    "correctAnswer": 1,
-    "difficulty": "extreme",
-    "explanation": "'All but 9 die' means 9 survive, so 9 sheep are left."
+    "explanation": "He's too short to reach the 20th floor button, but uses an umbrella on rainy days."
   }
 ] 
