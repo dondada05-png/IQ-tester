@@ -82,7 +82,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
                 <p className="text-red-500 text-sm mt-2 text-left">{nameError}</p>
               )}
               <p className="text-gray-500 text-xs mt-2 text-left">
-                Your name will be used to save your test results
+                Enter your name to start the test
               </p>
             </div>
           </div>
