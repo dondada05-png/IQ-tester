@@ -320,11 +320,11 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ userAnswers, userName, on
                             ⏰ Time Expired
                           </span>
                         )}
-                        <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                          isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
-                        }`}>
-                          {isCorrect ? '✓ Correct' : '✗ Incorrect'}
-                        </span>
+                      <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                        isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                      }`}>
+                        {isCorrect ? '✓ Correct' : '✗ Incorrect'}
+                      </span>
                       </div>
                     </div>
                     <p className="text-gray-700 mb-2">{question.question}</p>
@@ -334,8 +334,8 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ userAnswers, userName, on
                     {userAnswer && (
                       <div className="text-sm text-gray-600 mb-2">
                         <p>
-                          <span className="font-medium">Your Answer:</span> {question.options[userAnswer.selectedOption]}
-                        </p>
+                        <span className="font-medium">Your Answer:</span> {question.options[userAnswer.selectedOption]}
+                      </p>
                         {userAnswer.timeSpent && (
                           <p>
                             <span className="font-medium">Time Spent:</span> {formatTime(userAnswer.timeSpent)}

@@ -65,7 +65,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
           <div className="bg-white border border-gray-200 rounded-lg p-6 mb-8">
             <h2 className="text-lg font-semibold text-gray-800 mb-4 flex items-center justify-center">
               <User className="mr-2 text-blue-600" size={20} />
-              Enter Your Name
+              Enter your name to start the test
             </h2>
             <div className="max-w-md mx-auto">
               <input
@@ -81,9 +81,6 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
               {nameError && (
                 <p className="text-red-500 text-sm mt-2 text-left">{nameError}</p>
               )}
-              <p className="text-gray-500 text-xs mt-2 text-left">
-                Enter your name to start the test
-              </p>
             </div>
           </div>
 
